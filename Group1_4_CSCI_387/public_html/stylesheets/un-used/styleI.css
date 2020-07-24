@@ -1,0 +1,30 @@
+html{
+    align:center;
+    background-size: cover;
+    background-image:none;
+}
+
+#StudentSearch{
+    width: 30%;
+    height: 200px;
+    display: inline-flex;
+    margin: auto;
+    overflow:scroll; 
+    text-align: center;
+    border: black;
+    
+}
+#Courses{
+    border: 10%;
+    width: 70%;
+    height: 300px;
+    overflow:scroll; 
+    text-align: center;
+
+}
+iframe{
+   
+    margin: auto;
+    
+    display: flexbox;
+}

@@ -1,0 +1,182 @@
+
+/*body{
+	background: red;
+}*/
+
+
+.Login,.container{
+    align-items: center;
+ 
+}
+.Login{
+    background: url("https://news.olemiss.edu/wp-content/uploads/2017/02/Rankings1-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+
+}
+table{
+    align-items: center;
+    align:center;
+    color: #ffffff;
+}
+
+.course-table {
+  background: whitesmoke;
+  margin-bottom: 1.25rem;
+  border: solid 1px #dddddd;
+  }
+  table thead,
+  table tfoot {
+    background: whitesmoke; }
+    table thead tr th,
+    table thead tr td,
+    table tfoot tr th,
+    table tfoot tr td {
+      padding: 0.5rem 0.625rem 0.625rem;
+      font-size: 0.875rem;
+      font-weight: bold;
+      color: #222222;
+      text-align: left;
+      }
+  table tr th,
+  table tr td {
+    padding: 0.5625rem 0.625rem;
+    font-size: 0.875rem;
+    color: #222222; }
+  table tr.even, table tr.alt, table tr:nth-of-type(even) {
+    background: #f9f9f9; }
+  table thead tr th,
+  table tfoot tr th,
+  table tbody tr td,
+  table tr td,
+  table tfoot tr td {
+    display: table-cell;
+    line-height: 1.125rem;
+    }
+
+.logo-text{
+    text-align:center;
+    color: #ffffff;
+}
+
+/*Instuctor Page*/
+
+
+#StudentSearch{
+
+    height: 200px;
+    display: inline-flex;
+    margin: auto;
+    overflow:scroll;
+    text-align: center;
+    border: black;
+	margin:auto;
+	overflow-x:hidden;
+	border-style: solid;
+	background-color: white;
+	display:none;
+
+}
+/*Student and Instuctor pages*/
+#Courses{
+  min-height: 300px;
+  margin:auto;
+	border-style: none;
+	background-color: white;
+	display:none;
+}
+
+#hide,#hideinfo{
+    display: none;
+}
+
+#Student-Information,#SearchBox{
+  border: 10%;
+  width: 50%;
+  margin:auto;
+	overflow-x:hidden;
+  background-color: white;
+  display:none;
+
+}
+#advise{
+    margin-left: auto;
+    display: block;
+    align-content: left;
+}
+iframe{
+
+    margin: auto;
+    display: flexbox;
+}
+
+/*Add Page*/
+/*body{
+	background-image: url("https://www.totallandscapecare.com/wp-content/uploads/sites/5/2018/05/ole-miss-campus.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+*/
+
+.Addbody{
+	background-color:powderblue !important;
+}
+
+select{
+    width: 125px;
+    text-overflow: ellipsis;
+}
+/*select{
+    text-align-last:right;
+    padding-right: 29px;
+}*/
+
+#advancedSearch{
+	margin-right: 100px;
+}
+
+#hide{
+
+    display: "";
+}
+
+#instructorInfo{
+  text-align: right;
+  margin-left: 88%;
+  color:black;
+
+}
+
+.Instructor-Name{
+  font-size:25px;
+}
+
+.Instructor-ID{
+  font-size:25px;
+}
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    background-color: #333;
+    color: white;
+}
+
+#footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 3.5rem;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+background: ghostwhite;
+
+}
+

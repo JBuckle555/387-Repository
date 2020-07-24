@@ -1,0 +1,75 @@
+
+
+
+body{
+  height: 100vh;
+  width: 100vw;
+  margin-top: 0px;
+  margin-left: 0px;
+  
+
+
+}
+div{
+   padding: 0px;
+   margin: 0px;
+}
+
+
+@media screen and (max-width: 569px) {
+	.options{
+		width:100%;
+	}
+}	
+
+
+
+.header {
+  padding: 15px;
+  margin: 0px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 40px;
+  height: 10%;
+}
+.options{
+  float: left;
+  width: 25%;
+  height:85%;
+  background-color: #e7e7e7;
+  }
+.topnavS{
+  	background-color: black;
+  	height:35px;
+  	color: white;
+  }
+
+
+.target {width: 75%; height: 85%; 
+  
+   background-color: white; text-align: center;float: right;
+ }
+
+.button{
+  display: inline-block;
+  border-radius: 0px;
+  width: 100%;
+
+}
+.button:hover {background-color: #008CBA;}
+
+
+
+
+
+.space{
+ height: 15px;
+}
+
+
+.footer{
+	float:bottom;
+	width:100%;
+	
+}

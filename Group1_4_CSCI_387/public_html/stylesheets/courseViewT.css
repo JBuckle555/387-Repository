@@ -1,0 +1,51 @@
+
+		@media 
+only screen and (min-width: 574px){
+table{
+	width: 100%;
+	}
+	
+	.mobile{
+		display:none;
+	}
+	}
+.course-name{
+	margin: 0;
+}
+.course-table{
+float: center;
+}
+table{ 
+   
+  
+   border-collapse:collapse;
+
+  border-style: hidden;
+  
+}
+
+
+
+th { 
+  background:#5f3eb0;
+  color: white; 
+  font-weight: bold;
+  
+  
+}
+
+td, th { 
+  padding: 6px; 
+  border: 0px solid #ccc; 
+
+ 
+   
+}
+.register{
+	background: #2d66cf;
+	color: white;
+}
+#button{
+	background: #2d66cf;
+	color: white;
+}

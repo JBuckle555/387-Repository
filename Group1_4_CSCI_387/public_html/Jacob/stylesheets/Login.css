@@ -1,0 +1,21 @@
+.Login,.container{
+    align-items: center;
+    padding-top: 
+}
+.Login{
+    background: url("https://news.olemiss.edu/wp-content/uploads/2017/02/Rankings1-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+
+}
+table{
+    align-items: center;
+    align:center;
+    color: #ffffff;
+}
+.logo-text{
+    text-align:center;
+    color: #ffffff;
+}

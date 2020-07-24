@@ -1,0 +1,44 @@
+#title{
+	text-align: center;
+}
+
+.search{
+	text-align: center;
+	margin-top: 5%;
+}
+
+#classes{
+	width:70%;
+	height:400px;
+	overflow:scroll; 
+	text-align: center;
+	margin:auto;
+	overflow-x:hidden;
+	border-style: solid;
+	background-color: white;
+	display:none;
+}
+
+/*body{
+	background-image: url("https://www.totallandscapecare.com/wp-content/uploads/sites/5/2018/05/ole-miss-campus.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+body{
+	background-color:powderblue !important;
+}
+*/
+select{
+    width: 125px;
+    text-overflow: ellipsis;
+}
+/*select{
+    text-align-last:right;
+    padding-right: 29px;
+}*/
+
+#advancedSearch{
+	background-color: blue;
+}

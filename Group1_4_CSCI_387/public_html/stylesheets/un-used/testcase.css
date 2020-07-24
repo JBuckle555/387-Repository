@@ -1,0 +1,207 @@
+
+/*Login Page*/
+.Login,.container{
+    align-items: center;
+    padding-top:
+}
+.Login{
+    background: url("https://news.olemiss.edu/wp-content/uploads/2017/02/Rankings1-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+
+}
+table{
+    align-items: center;
+    align:center;
+    color: #ffffff;
+}
+
+/*Instuctor Page*/
+.Instructor{
+    align:center;
+    background-size: cover;
+    background-image:none;
+}
+
+#StudentSearch{
+    width: 30%;
+    height: 200px;
+    display: inline-flex;
+    margin: auto;
+    overflow:scroll;
+    text-align: center;
+    border: black;
+	margin:auto;
+	overflow-x:hidden;
+	border-style: solid;
+	background-color: white;
+	display:none;
+
+}
+/*Student and Instuctor pages*/
+#Courses{
+    border: 10%;
+    width: 70%;
+    height: 300px;
+    margin:auto;
+	overflow-x:hidden;
+	border-style: solid;
+	background-color: white;
+	display:none;
+
+}
+#hide,#hideinfo{
+    display: none;
+}
+#Student-Information,#Instructor-Information{
+    border: 10%;
+    width: 50%;
+    margin:auto;
+	overflow-x:hidden;
+	border-style: solid;
+    background-color: white;
+    display:none;
+
+}
+#advise{
+    margin-left: auto;
+    display: block;
+    align-content: left;
+}
+iframe{
+
+    margin: auto;
+    display: flexbox;
+}
+
+/*Add Page*/
+/*body{
+	background-image: url("https://www.totallandscapecare.com/wp-content/uploads/sites/5/2018/05/ole-miss-campus.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+*/
+
+.Addbody{
+	background-color:powderblue !important;
+}
+
+select{
+    width: 125px;
+    text-overflow: ellipsis;
+}
+/*select{
+    text-align-last:right;
+    padding-right: 29px;
+}*/
+
+#advancedSearch{
+	margin-right: 100px;
+}
+
+#hide{
+
+    display: "";
+}
+
+html,body{
+
+    align-items: center;
+    padding-top:
+}
+html{
+  background: url("https://news.olemiss.edu/wp-content/uploads/2017/02/Rankings1-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+table{
+    align-items: center;
+    align:center;
+    color: #ffffff;
+}
+.logo-text{
+    text-align:center;
+    color: #ffffff;
+}
+login-button{
+  float: left;
+}
+footer{
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  background-color: transparent;
+  color: crimson;
+}
+footer:hover{
+	color: #5d8ffc;
+	cursor: default;
+}
+
+
+button{
+  background: transparent;
+  color: crimson;
+
+   border: 1px solid crimson;
+  padding: 2px;
+  width: 3%;
+  margin-top: 0px;
+  transition: 0.3s;
+  display: inline-block;
+
+}
+button:hover{
+  background: transparent;
+  color: #5d8ffc;
+  border: 1px solid #5d8ffc;
+  cursor: pointer;
+
+}
+
+#buttonLocation{
+	padding-left:125px;
+}
+
+/*
+#formLocation{
+	margin-left: 600px;
+	margin-top: 100px;
+}
+*/
+.alert-box {
+  border-style: solid;
+  border-width: 1px;
+  display: block;
+  font-weight: normal;
+  margin-bottom: 1.25rem;
+  position: relative;
+  padding: 0.875rem 1.5rem 0.875rem 0.875rem;
+  font-size: 0.8125rem;
+  transition: opacity 300ms ease-out;
+  background-color: #008cba;
+  border-color: #0078a0;
+  color: white; }
+  .alert-box.round {
+    border-radius: 1000px; }
+  .alert-box.info {
+    background-color: #a0d3e8;
+    border-color: #74bfdd;
+    color: #4f4f4f; }
+
+#add-user{
+	width: 5%;
+}
+#logo-text{
+	color: crimson;
+}
+#logo-text:hover{
+	color: #5d8ffc;
+	cursor: default;
+}

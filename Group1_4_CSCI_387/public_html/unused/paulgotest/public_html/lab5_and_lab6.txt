@@ -1,0 +1,71 @@
+type State struct{
+	Num int64
+	Name string
+	Abbr string
+	Capital string
+	Est int64
+	Pop int64
+	Reps int64
+}
+
+Colonies := []State{}
+Colonies = append(Colonies, State{Num: 1, Name: "Delaware", Abbr: "DE", Capital: "Dover", Est: 1787,
+Pop: 973764, Reps: 1})
+Colonies = append(Colonies, State{Num: 2, Name: "Pennsylvania", Abbr: "PA", Capital: "Harrisburg",
+Est: 1787, Pop: 12801989, Reps: 18})
+Colonies = append(Colonies, State{Num: 3, Name: "New Jersey", Abbr: "NJ", Capital: "Trenton", Est:
+1787, Pop: 8882190, Reps: 12})
+Colonies = append(Colonies, State{Num: 4, Name: "Georgia", Abbr: "GA", Capital: "Atlanta", Est: 1788,
+Pop: 10617423, Reps: 14})
+Colonies = append(Colonies, State{Num: 5, Name: "Connecticut", Abbr: "CT", Capital: "Hartford", Est:
+1788, Pop: 3565278, Reps: 5})
+
+
+Colonies = append(Colonies, State{Num: 6, Name: "Massachusetts", Abbr: "MA", Capital: "Boston", Est: 1788,
+Pop: 6892503, Reps: 9})
+Colonies = append(Colonies, State{Num: 7, Name: "Maryland", Abbr: "MD", Capital: "Annapolis",
+Est: 1788, Pop: 6045680, Reps: 8})
+Colonies = append(Colonies, State{Num: 8, Name: "South Carolina", Abbr: "SC", Capital: "Columbia", Est:
+1788, Pop: 5148714, Reps: 7})
+Colonies = append(Colonies, State{Num: 9, Name: "New Hampshire", Abbr: "NH", Capital: "Concord", Est: 1788,
+Pop: 1359711, Reps: 2})
+Colonies = append(Colonies, State{Num: 10, Name: "Virginia", Abbr: "VA", Capital: "Richmond", Est:
+1788, Pop: 8535519, Reps: 11})
+
+Colonies = append(Colonies, State{Num: 11, Name: "New York", Abbr: "NY", Capital: "Albany", Est:
+1788, Pop: 19453561, Reps: 27})
+Colonies = append(Colonies, State{Num: 12, Name: "North Carolina", Abbr: "NC", Capital: "Raleigh", Est: 1789,
+Pop: 10488084, Reps: 13})
+Colonies = append(Colonies, State{Num: 13, Name: "Rhode Island", Abbr: "RI", Capital: "Providence", Est:
+1790, Pop: 1059361, Reps: 2})
+
+$states = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve', 'thirteen'];
+
+$one = ['Num' => 1, 'Name' => 'Delaware', 'Abbr' => 'DE', 'Capital' => 'Dover', 'Est' => 1787, 'Pop' => 973764,
+'Reps' => 1];
+$two = ['Num' => 2, 'Name' => 'Pennsylvania', 'Abbr' => 'PA', 'Capital' => 'Harrisburg', 'Est' => 1787, 'Pop' =>
+12801989, 'Reps' => 18];
+$three = ['Num' => 3, 'Name' => 'New Jersey', 'Abbr' => 'NJ', 'Capital' => 'Trenton', 'Est' => 1787, 'Pop' =>
+8882190, 'Reps' => 12];
+$four = ['Num' => 4, 'Name' => 'Georgia', 'Abbr' => 'GA', 'Capital' => 'Atlanta', 'Est' => 1788, 'Pop' => 10617423,
+'Reps' => 14];
+$five = ['Num' => 5, 'Name' => 'Connecticut', 'Abbr' => 'CT', 'Capital' => 'Hartford', 'Est' => 1788, 'Pop' =>
+3565278, 'Reps' => 5];
+
+$six = ['Num' => 6, 'Name' => 'Massachusetts', 'Abbr' => 'MA', 'Capital' => 'Boston', 'Est' => 1788, 'Pop' => 6892503,
+'Reps' => 9];
+$seven = ['Num' => 7, 'Name' => 'Maryland', 'Abbr' => 'MD', 'Capital' => 'Annapolis', 'Est' => 1788, 'Pop' =>
+6045680, 'Reps' => 8];
+$eight = ['Num' => 8, 'Name' => 'South Carolina', 'Abbr' => 'SC', 'Capital' => 'Columbia', 'Est' => 1788, 'Pop' =>
+5148714, 'Reps' => 7];
+$nine = ['Num' => 9, 'Name' => 'New Hampshire', 'Abbr' => 'NH', 'Capital' => 'Concord', 'Est' => 1788, 'Pop' => 1359711,
+'Reps' => 2];
+$ten = ['Num' => 10, 'Name' => 'Virginia', 'Abbr' => 'VA', 'Capital' => 'Richmond', 'Est' => 1788, 'Pop' =>
+8535519, 'Reps' => 11];
+
+$eleven = ['Num' => 11, 'Name' => 'New York', 'Abbr' => 'NY', 'Capital' => 'Albany', 'Est' => 1788, 'Pop' =>
+19453561, 'Reps' => 27];
+$twelve = ['Num' => 12, 'Name' => 'North Carolina', 'Abbr' => 'NC', 'Capital' => 'Raleigh', 'Est' => 1789, 'Pop' => 10488084,
+'Reps' => 13];
+$thirteen = ['Num' => 13, 'Name' => 'Rhode Island', 'Abbr' => 'RI', 'Capital' => 'Providence', 'Est' => 1790, 'Pop' =>
+1059361, 'Reps' => 2];

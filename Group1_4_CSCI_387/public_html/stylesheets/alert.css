@@ -1,0 +1,19 @@
+.alert-box {
+  border-style: solid;
+  border-width: 1px;
+  display: block;
+  font-weight: normal;
+  margin-bottom: 1.25rem;
+  position: relative;
+  padding: 0.875rem 1.5rem 0.875rem 0.875rem;
+  font-size: 0.8125rem;
+  transition: opacity 300ms ease-out;
+  background-color: #008cba;
+  border-color: #0078a0;
+  color: white; }
+  .alert-box.round {
+    border-radius: 100px;}
+  .alert-box.info {
+    background-color: #a0d3e8;
+    border-color: #74bfdd;
+    color: #4f4f4f; }

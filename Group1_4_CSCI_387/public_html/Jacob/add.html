@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en" class="Add">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="stylesheets/Add.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Add Classes</title>
+  </head>
+  <body class="Addbody">
+
+  	<h1 id = "title">Add Classes to Favorites</h1>
+
+	<div class="search">
+		<label>Search Class</label>
+		<input type="text" name="Class-Search">
+		<input type="button" name="answer" value="Search" onclick="searchFunction()" />
+	</div>
+	
+
+	<div class="col-mb-4 text-center">
+          <button id = "button" type="button" class="btn btn-primary" style="margin-top: 1%; margin-bottom: 1%">Advanced Search</button>
+    </div>
+
+    <ul id="advancedSearch"></ul>
+
+   <div id = "classes" onclick="check()" >
+
+   		<div class="classesName">
+   			<label>
+   				<input type="checkbox" class="checkbox" value="value">CSCI 387 Software Design and Development
+   			</label>
+	   			<div class="classInfo">
+	   				<p class="info">Professor: Timothy Holston</p>
+	   				<p class="info">Meeting Time: T TH 11:00AM - 12:00PM</p>
+	   				<p class="info">Available Seats: 50</p>
+	   				<p class="info">Room: Anderson Room 21</p>
+	   			</div>
+   			<hr>
+
+   			<label>
+   				<input type="checkbox" class="checkbox" value="value">CSCI 450 Senior Project
+   			</label>
+	   			<div class="classInfo">
+	   				<p class="info">Professor: Joseph Carlisle</p>
+	   				<p class="info">Meeting Time: M W F 4:00PM - 5:15PM</p>
+	   				<p class="info">Available Seats: 25</p>
+	   				<p class="info">Room: Weir 235</p>
+	   			</div>
+   			<hr>
+
+   			<label>
+   				<input type="checkbox" class="checkbox" value="value">CSCI 427 Fundamentals of Computer Security
+   			</label>
+	   			<div class="classInfo">
+	   				<p class="info">Professor: Jeffrey Lucas</p>
+	   				<p class="info">Meeting Time: M W F 2:00PM - 2:50PM</p>
+	   				<p class="info">Available Seats: 30</p>
+	   				<p class="info">Room: Weir 235</p>
+	   			</div>
+   			<hr>
+		</div>
+	</div>
+
+	<button id = "addClass" type="button" class="btn btn-primary" disabled onclick="addClass()">Add Class</button>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="javascript/add.js"></script>
+    <script>extras()</script>
+  </body>
+</html>

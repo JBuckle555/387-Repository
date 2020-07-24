@@ -1,0 +1,77 @@
+	@media 
+only screen and (max-width: 760px){
+	table, thead, tbody, th, td, tr { 
+		display: block ;
+		width: auto;
+	}
+	
+	/* Hide table headers (but not display: none;, for accessibility) */
+
+	
+
+	
+	
+	/*
+	Label the data
+	*/
+	
+
+	}
+		@media 
+only screen and (min-width: 760px){
+table{
+	width: 100%;
+	}
+	}
+.course-name{
+	margin: 0;
+}
+.course-table{
+float: center;
+}
+table{ 
+   
+  
+   border-collapse:collapse;
+
+  border-style: hidden;
+  
+}
+
+tr:nth-of-type(3n+1) { 
+  background:#dcdae3;
+  border: 1px solid #ccc; 
+}
+tr:nth-of-type(3n+2) { 
+  background:#ebeef0;
+  
+}
+tr:nth-of-type(3n+3) { 
+  background:#ebeef0;
+  
+}
+
+
+th { 
+  background:#5f3eb0;
+  color: white; 
+  font-weight: bold;
+  
+  
+}
+
+td, th { 
+  padding: 6px; 
+  border: 0px solid #ccc; 
+	
+ 
+   
+}
+.register{
+	background: #2d66cf;
+	color: white;
+}
+#button{
+	background: #2d66cf;
+	color: white;
+}
